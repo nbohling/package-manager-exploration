@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Exploring package managers",
   "scripts": {
-    "go-once": "echo Not implemented",
+    "go-once": "yarn workspaces run go-once",
     "go-repeatedly": "echo Not implemented"
   },
   "repository": {

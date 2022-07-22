@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@nb/package1": "file:workspaces/package1",
     "lodash": "^3.10.1"
   }
 }

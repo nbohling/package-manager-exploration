@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Exploring package managers",
   "scripts": {
-    "go": "echo Not implemented"
+    "go-once": "echo Not implemented",
+    "go-repeatedly": "echo Not implemented"
   },
   "repository": {
     "type": "git",

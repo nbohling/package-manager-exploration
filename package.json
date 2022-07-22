@@ -1,0 +1,22 @@
+{
+  "name": "@nb/package-manager-exploration",
+  "version": "1.0.0",
+  "description": "Exploring package managers",
+  "scripts": {
+    "go": "echo Not implemented"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbohling/package-manager-exploration.git"
+  },
+  "author": "neal.bohling@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbohling/package-manager-exploration/issues"
+  },
+  "homepage": "https://github.com/nbohling/package-manager-exploration#readme",
+  "workspaces": [
+    "workspaces/*"
+  ],
+  "private": true
+}

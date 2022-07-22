@@ -1,0 +1,14 @@
+{
+  "name": "@nb/package2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "go": "while true; do echo \"App2: \" $(date); sleep 2; done"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}

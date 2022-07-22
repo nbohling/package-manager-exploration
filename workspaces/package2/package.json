@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "go-once": "echo \"App2: \" $(date)",
-    "go-repeatedly": "while true; do echo \"App2: \" $(date); sleep 2; done"
+    "go-repeatedly": "./loop.bash"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^3.10.1"
+    "@nb/package1": "workspace:^",
+    "lodash": "latest"
   }
 }

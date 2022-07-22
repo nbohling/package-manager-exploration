@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "@nb/package1": "file:workspaces/package1",
-    "lodash": "^3.10.1"
+    "lodash": "^4.17.21"
   }
 }

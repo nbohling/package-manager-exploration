@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Exploring package managers",
   "scripts": {
-    "go-once": "echo Not implemented",
-    "go-repeatedly": "echo Not implemented"
+    "go-once": "npm run go-once --workspaces",
+    "go-repeatedly": "npm run go-repeatedly --workspaces"
   },
   "repository": {
     "type": "git",

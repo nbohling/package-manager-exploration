@@ -34,14 +34,25 @@ Each subapp contains a "go" script that repeatedly emits output.
 
 #### Running a single script in all workspaces
 - Serially
-  - `test`
+  - `npm run go-once --workspaces`
 - In parallel, with streaming output
+  - not possible
 
 #### Filtering workspaces
 - Include
+  - `npm run go-once -w @nb/package1 -w @nb/package2`
 - Exclude
+  - not possible, just selecting one at a time
 
 #### Updating dependencies across the repo
 - Does the tooling allow for updating lodash in both workspaces?
+  - `npm update --workspaces` will update all versions
 - Does it allow for updating to the same version in both?
+  - Sort of -- `npm install lodash@latest --save --workspaces` will re-install latest in all workspaces
 - Does it sync the package.json files?
+  - Yes, `npm install lodash@latest --save --workspaces` saves to package.json
+
+#### Other notes:
+There's a bug in npm that doesn't handle including dependencies in subdirectories very well.
+https://github.com/npm/cli/issues/3847
+
